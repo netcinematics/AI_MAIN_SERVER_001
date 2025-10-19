@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI_MAIN</title>
+</head>
+<body>
+    <h1>Ask Gemini:</h1>
+    <form action="/generate-text" method="POST">
+        <label for="prompt">Enter your prompt:</label><br>
+        <input type="text" id="prompt" name="prompt" size="50" required>
+        <button type="submit">Get Response</button>
+    </form>
+
+    <hr>
+
+    <h2>Gemini Response:</h2>
+    <div>
+        <pre>{{geminiResponse}}</pre>
+    </div>
+</body>
+</html>

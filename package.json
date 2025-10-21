@@ -1,0 +1,13 @@
+{
+  "name": "ai_main_server_001",
+  "version": "1.0.0",
+  "description": "NODE server for GEMINI, Google GenAI, and Google AI Studio. For AI integration for FINANCE  ASSISTANT.  And aLOGANZa innovation with temporal AI AGENT interaction methodology.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "netfalcon",
+  "license": "MIT"
+}
